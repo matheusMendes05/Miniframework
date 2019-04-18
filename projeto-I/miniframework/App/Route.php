@@ -33,7 +33,18 @@ class Route extends Bootstrap {
 			'controller' => 'AuthController',
 			'action' => 'autenticar'
 		);
+		$routes['autenticar'] = array(
+			'route' => '/autenticar',
+			'controller' => 'AuthController',
+			'action' => 'autenticar'
+		);
 
+		// rota para teste de cadastro de produtos 
+		$routes['cadastroProduto'] = array(
+			'route' => '/cadastroProduto',
+			'controller' => 'produtoController',
+			'action' => 'cadastroProduto'
+		);
 		$this->setRoutes($routes);
 	}
 
