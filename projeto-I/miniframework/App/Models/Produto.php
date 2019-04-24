@@ -38,8 +38,11 @@ class Produto extends Model{
         }
     return $valido;
     }
+
+    
     public function listarProduto(){
-        $query = "select NOME, QUANTIDADE, VALOR from produto ";
+
+        $query = "select NOME, QUANTIDADE, VALOR from produto";
         $stmt = $this->db->prepare($query);
         $stmt->execute();
 

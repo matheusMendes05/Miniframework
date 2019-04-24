@@ -55,14 +55,14 @@
 .boxCadastro{
     position: absolute;
    background: #fff;
-   width: 1050px;
-   height: 700px;
+   width: 80vw;
+   height: 100vh;
    padding: 30px;
    border-radius: 10px;
    z-index: 3000px;
 }
 
-
+/* lista de produtos*/
 
 
 

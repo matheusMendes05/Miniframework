@@ -57,15 +57,15 @@ class IndexController extends Action {
 			}else{
 				$this->render('cadastroPoduto');
 			}
+
+			
 		}
 		// metodo que lista o produto
 		public function listarProduto(){
 
 			$produto = Container::getModel('Produto');
-
-
 			$this->render('listaProduto');
-
+		
 			
 		}
 
